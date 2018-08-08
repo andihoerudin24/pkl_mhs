@@ -1,0 +1,150 @@
+ 
+body {
+	background :url("/baru/background.jpg");
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+}
+ 
+hr {
+	border:0;
+	background :url("/baru/background.jpg");
+	height:1px;
+}		
+ 
+header{
+	text-align: center;
+	color: #232323;
+
+}
+ 
+header .judul{
+	font-size: 25pt;
+
+}
+ 
+header .deskripsi{
+	font-size: 15pt;
+}
+ 
+.wrap {
+	width: 650px;
+	margin:25px auto;
+
+}
+ 
+nav.menu ul {
+	overflow:hidden;
+	color:#fff;
+	list-style: none;
+	float:left;
+	padding:0;
+	width: 650px;
+	margin:0 0 0;
+	background: black;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+	box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+}
+ 
+nav.menu ul li {
+	margin:0;
+	float:left;
+}
+ 
+nav.menu ul a {
+	padding:25px;
+	display:block;
+	font-weight:800;
+	font-size: 18px;
+	color:white;
+	text-transform: uppercase;
+	transition: all 0.5s ease;
+	text-decoration: none;
+}
+ 
+nav.menu ul a:hover {
+	text-decoration: underline;
+	background:#16a085;
+}
+ 
+.sidebar {
+	float:right;
+	width:650px;
+	margin-left: 200px;
+	
+}
+
+.sidebar .widget {
+	padding:25px;
+	margin:0 0 25px;
+	background:white;
+	border-bottom: 2px solid #fff;
+	transition: all 0.5s ease;
+
+
+}
+ 
+.sidebar .widget:hover {
+	border-bottom: 2px solid #3498db;
+	
+}
+
+.sidebar .widget p:last-child {
+	margin:0;
+}
+ 
+.blog {
+	float:left;
+	font-size:25pt;
+}
+ 
+.conteudo {
+
+	width:600px;
+	padding:25px;
+	margin:25px auto;
+	background: white;
+	border:1px solid #dedede;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+	box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+	height:auto;
+}
+ 
+.conteudo img {
+	min-width: 650px;
+	margin:0 0 25px -25px;
+	max-width: 650px;
+}
+ 
+.conteudo h1 {
+	padding:0;
+	margin:0 0 15px;
+	font-weight: normal;
+	color: #666;
+	font-family: Georgia;
+	font-size: 25pt;
+}
+ 
+.conteudo p:last-child {
+	margin: 0;
+	font-size: 12pt;
+}
+ 
+.conteudo .continue-lendo {
+	color:#000;
+	transition: all 0.5s ease;
+	text-decoration: none;
+	font-weight: 700; 
+}
+ 
+.conteudo .continue-lendo:hover {
+	margin-left:0px auto;
+}
+ 
+.post-info {
+	float: right;
+	font-size: 12px;
+	margin: -10px 0 15px;
+	text-transform: uppercase;
+}

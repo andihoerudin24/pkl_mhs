@@ -1,0 +1,8 @@
+<?php
+	include "../koneksi.php";
+
+	$no = $_GET['no'];
+	$q = "DELETE from data_antri WHERE no = '$no'";
+	$delete = mysql_query($q) or die (mysql_error());
+?>
+
